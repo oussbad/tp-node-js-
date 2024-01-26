@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="/tp1/js/ghda.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Gestion des produits</h1>
+    </header>
+    <main>
+        <section class="formSection">
+            <h2>Form</h2>
+            <div>
+                <div class="inputs">
+                    <input id="refInput" type="text" placeholder="ref">
+                    <input id="intituleInput" type="text"  placeholder="intitule">
+                    <input id="prixInput" type="text" placeholder="prix">
+                </div>
+                <div class="btns">
+                    
+                    <button id="effacerBtn">effacer</button>
+                    <button id="ajouterBtn">ajouter</button>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="listSection">
+            <h2>Liste</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ref</th>
+                        <th>intitule</th>
+                        <th>prix</th>
+                        <th>options</th>
+                    </tr>
+                    
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+                
+            </table>
+            <div id="divbtn">
+                <button id="updateBtn">moyen </button>
+                <span id="spanMoyen"></span>
+            </div>
+            
+        </section>
+    </main>
+</body>
+
+</html>
